@@ -1,0 +1,66 @@
+header{
+    padding: 30px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_logo a {
+    height: 100%;
+    display: block;
+}
+.main_logo a img{
+    display: block;
+    height: 100%;
+    align-content: center;
+}
+
+
+
+.main_nav ul {
+    height: 100%;
+    margin:0;
+    padding: 0;
+    display :flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main_nav ul li{
+    list-style: none;
+}
+
+.main_nav ul li a, .main_nav ul li a:visited{
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.main_nav ul li a:hover {
+    color: #cdcd22 ;
+}
+
+.authentification{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-between;
+}
+
+.authentification a,.authentification a:visited {
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border: solid;
+    border-color: #fff;
+    border-radius: 15px;
+}
+
+.login {
+    margin-right: 10px;
+}
+
+.authentification a.signup {
+    background-color: #fff;
+    color: #00218F;
+}

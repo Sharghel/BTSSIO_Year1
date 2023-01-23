@@ -1,0 +1,60 @@
+.loved{
+    margin: 0px 100px;
+
+}
+.bandeau{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fleche{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.fleche a{
+    text-decoration: none;
+}
+
+
+.avis{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avisCase{
+    padding: 30px 30px;
+    background-color: #fff;
+    color: #fff;
+    display: block;
+    border: solid;
+    border-color: #EAEAEA;
+    border-radius: 15px;
+}
+
+
+
+.imageAvis{
+    width: 72px;
+    text-align: left;
+}
+
+
+.persoInfo .nom{
+    color: #343434;
+}
+
+
+
+
+
+
+
+.avisCase .texteAvis{
+    text-align: left;
+    color: #969696;
+}
+
+
+

@@ -1,0 +1,43 @@
+.finTeam{
+    background-color: #F2F2FF;
+}
+
+.duality{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.finTeam .duality .title2{
+    color:#0C0047;
+    font-size: 60px;
+    text-align: left;
+}
+
+.sousTitle{
+    max-width: 400px;
+    font-size: 15px;
+    color: #969696;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.people{
+    padding: 20px 0px;
+    text-align: left;
+}
+.try{
+    padding: 40px 0px;
+    text-align: left;
+}
+
+.duality .texte a, .duality .texte a:visited{
+    padding: 18px 55px;
+    color: #fff;
+    background-color: #6A4BFF;
+    text-decoration: none;
+    display: inline;
+    border: solid;
+    border-color: #6A4BFF;
+    border-radius: 15px;
+}

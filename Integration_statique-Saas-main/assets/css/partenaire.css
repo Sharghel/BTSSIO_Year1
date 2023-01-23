@@ -1,0 +1,19 @@
+.partenaire ul{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    display :flex;
+    justify-content: space-evenly;
+}
+
+.partenaire ul li{
+    list-style: none;
+}
+
+.partenaire ul li a, .partenaire ul li a:visited{
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}

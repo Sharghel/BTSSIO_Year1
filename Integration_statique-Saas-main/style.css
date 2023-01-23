@@ -1,0 +1,61 @@
+/* header */
+@import url("assets/css/header.css");
+
+/* article 1 */
+@import url("assets/css/article1.css");
+
+/* bandeau partenaire */
+@import url("assets/css/partenaire.css");
+
+/* article quatre */
+@import url("assets/css/quatre.css");
+
+/* section 1 team */
+@import url("assets/css/section.css");
+
+/* article pricing */
+@import url("assets/css/pricing.css");
+
+/* article loved */
+@import url("assets/css/loved.css");
+
+
+body {
+    background-image:url("assets/img/ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 ;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 1030px) {
+    .main_nav{
+        padding: 20px;
+        order: 2;
+        width: 100%;
+    }
+
+    body{
+        background-color: #00218F;
+    }
+    
+    header{
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    header{
+        background-color: #00218F;
+    }
+
+    .main_logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+
+

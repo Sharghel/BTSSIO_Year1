@@ -1,0 +1,51 @@
+.title{
+    color: #0C0047;
+    font-size: 45px;
+    margin: 25px 0px 25px 0px;
+}
+.sous_title{
+    color: #969696;
+}
+
+.quatre{
+    padding: 50px;
+}
+.quatre ul {
+    text-align: left;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    display :flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.quatre ul li{
+    list-style: none;
+    border: solid;
+    background-color: #fff;
+    border-radius: 30px;
+    border-width: 0.5px;
+    border-color: #EAEAEA;
+    padding: 40px 25px;
+}
+
+.quatre ul li a, .quatre ul li a:visited{
+    padding: 10px 10px;
+    color: #6A4BFF;
+    display: block;
+}
+
+
+.quatre .quatre_title {
+    display: block;
+    padding: 15px 0px;
+    color: #343434;
+    font-size: 30px;
+}
+
+.quatre .quatre_art {
+    color: #969696;
+    margin-bottom: 30px ;
+
+}

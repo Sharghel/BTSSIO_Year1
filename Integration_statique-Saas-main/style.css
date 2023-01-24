@@ -19,6 +19,8 @@
 /* article loved */
 @import url("assets/css/loved.css");
 
+/* link avec le js */
+@import url("assets/css/script.css");
 
 body {
     background-image:url("assets/img/ellipse.svg");
@@ -27,6 +29,7 @@ body {
     margin: 0 ;
     font-family: "Roboto";
 }
+
 
 @media screen and (max-width: 1030px) {
     .main_nav{

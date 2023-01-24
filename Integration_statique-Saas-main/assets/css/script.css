@@ -1,0 +1,19 @@
+.liste{
+    font-size: 35px;
+    color: #37E2D5;
+    text-align: right;
+    max-width: 331px;
+    margin-left: 409px;
+    margin-right: 60px;
+}
+
+.liste ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.liste ul li{
+    width: 100%;
+    list-style: none;
+    text-align: right;
+}

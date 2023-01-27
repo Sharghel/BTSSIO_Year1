@@ -62,3 +62,35 @@ body {
 
 
 
+.monthprix{
+    color: #343434;
+
+}
+
+.boutonPrix{
+    display: inline ;
+    border: solid;
+    border-color: #F2F2FF;
+    background-color: #F2F2FF;
+    margin: 0px 20px 0px 20px;
+    padding: 24px 25px 24px 25px;
+    border-radius: 50px;
+}
+
+.moisboutton{
+    border: solid;
+    border-color: #152C5B;
+    background-color: #152C5B;
+    padding: 8px 20px 8px 15px;
+    border-radius: 40px;
+    margin-right: 40px;
+}
+.anneebutton{
+    display: none;
+    border: solid;
+    border-color: #152C5B;
+    background-color: #152C5B;
+    padding: 8px 20px 8px 15px;
+    border-radius: 40px;
+    margin-left: 40px;
+}

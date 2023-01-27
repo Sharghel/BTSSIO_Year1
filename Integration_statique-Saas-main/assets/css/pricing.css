@@ -11,8 +11,10 @@
     gap: 40px;
 }
 
-.monthlyAnnualy{
+.divmonthlyAnnualy{
     padding: 40px 0px;
+    display: block;
+    text-align: center;
 }
 
 .standart, .premium{
@@ -58,8 +60,20 @@
     color: #ECECEC;
 }
 
+.prixMoisDeux{
+    height: 53px;
+    padding: 40px 0px 40px 0px;
+    color: #969699;
+}
+.prixMoisTrois{
+    font-weight: bold;
+    color: #0C0047;
+    font-size: 55px;
+}
 .prixMois{
-    padding: 40px 0px 30px 0px
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 55px;
 }
 
 .selectPlan{

@@ -88,3 +88,32 @@ function MaJArgent(tmp_argent) {
         argentSpan3.innerText = '$16'
     }
 }
+
+
+// Grand 3
+
+
+const buttondec = document.querySelector("#bouttonDecrement")
+const buttoninc = document.querySelector("#bouttonIncrement")
+
+// 0 => Briana Patton BP
+const liBP = document.querySelector("#BP")
+
+
+// 1 => Imelda Cowen IC
+const liIC = document.querySelector("#IC")
+
+
+//2 => Alfred Walton AW
+const liAW = document.querySelector("#AW")
+
+
+
+
+buttondec.addEventListener("click", function(event) {
+    event.preventDefault()
+})
+
+buttoninc.addEventListener("click", function(event) {
+    event.preventDefault()
+})
